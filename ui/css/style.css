@@ -205,6 +205,7 @@ input[type="textarea"] {
     margin-top: 20px;
     margin-left: 70px;
  }
+
  #main h1 {
     margin-top: 40px;
  }
@@ -214,6 +215,8 @@ input[type="textarea"] {
 input[type="date"] {
     width: 50%
 }
+
+
 
  /* Modal */
  #cover-div {

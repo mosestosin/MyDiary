@@ -34,4 +34,5 @@ edits.forEach(edit => {
   edit.addEventListener("click", function(e){
       modal.classList.toggle('hide')
   })
+
 })
