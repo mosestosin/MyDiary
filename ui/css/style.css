@@ -235,6 +235,18 @@ input[type="textarea"] {
     margin-left: 70px;
  }
 
+ #main h1 {
+    margin-top: 40px;
+ }
+ input[type="submit"] {
+    border: none;
+}
+input[type="date"] {
+    width: 50%
+}
+
+
+
  /* Modal */
  #cover-div {
     position: fixed;
