@@ -15,4 +15,5 @@ router.get('/diaries/:id', Diary.getSpecificDiary);
 router.post('/diaries', Diary.createDiary);
 router.put('/diaries/:id', Diary.updateDiary);
 
+
 export default router;
