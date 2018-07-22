@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/diaries', Diary.getDiary);
-// router.get('/diaries/:id', Diary.getSpecificDiary);
+router.get('/diaries/:id', Diary.getSpecificDiary);
 // router.post('/diaries', Diary.createDiary);
 // router.put('/diaries/:id', Diary.updateDiary);
 
