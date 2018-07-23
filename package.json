@@ -1,0 +1,41 @@
+{
+  "name": "MyDiary",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "description": "A web application that allows users to write down their feeling and thought",
+  "main": "app.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "~1.18.3",
+    "eslint": "~4.19.1",
+    "eslint-config-airbnb": "~17.0.0",
+    "eslint-plugin-import": "~2.12.0",
+    "eslint-plugin-jsx-a11y": "~6.0.3",
+    "eslint-plugin-react": "~7.9.1",
+    "express": "~4.16.3",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start:watch": "nodemon --exec babel-node SERVER/app.js",
+    "start": "babel-node SERVER/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosestosin/MyDiary.git"
+  },
+  "keywords": [],
+  "author": "MOSES Tosin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosestosin/MyDiary/issues"
+  },
+  "homepage": "https://github.com/mosestosin/MyDiary#readme"
+}

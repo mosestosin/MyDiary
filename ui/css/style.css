@@ -1,9 +1,10 @@
 body { 
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
-    margin:0;
+    margin:0;      
     background-color: #f2f2f2;
     color: #35424a
+
 }
 /* Global */
 .container {
@@ -23,6 +24,13 @@ header {
     padding-top: 20px;
     min-height: 60px;
     border-bottom: #e8491d 3px solid;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
 }
 header a {
      color: #fff;
@@ -55,7 +63,14 @@ header a:hover{
 }
 
 /* Showcase */
+
 #showcase {
+    margin-top: 40px;
+
+
+
+
+
     min-height: 400px;
     background: url("../images/diary1.jpg") no-repeat 0 -50px;
     text-align: center;
@@ -70,7 +85,11 @@ header a:hover{
     font-size: 18px;
 }
 
-/* Forms */
+/* Form */
+
+
+
+
 #form {
     padding:15px;
     padding-bottom: 25px; 
@@ -121,7 +140,9 @@ input {
  button {
      margin-right: 20px;
      border-radius: 5px;
-     font-weight: bold;
+
+     
+
      border: none
  }
 .buttons #reg {
@@ -140,6 +161,8 @@ input {
 .hide {
     display: none
 }
+
+
 .entry h3{
     color: #fff;
     background: #35424a;
@@ -155,6 +178,7 @@ input {
 .entry p span {
     float: right;
 }
+
 /* Boxes */
 #boxes {
     margin-top: 20px
@@ -170,6 +194,8 @@ input {
     width: 90px;
     height: auto;
 }
+
+
 #main {
     float: left;
     width: 60%;
@@ -206,6 +232,18 @@ input[type="textarea"] {
     margin-left: 70px;
  }
 
+ #main h1 {
+    margin-top: 40px;
+ }
+ input[type="submit"] {
+    border: none;
+}
+input[type="date"] {
+    width: 50%
+}
+
+
+
  /* Modal */
  #cover-div {
     position: fixed;
@@ -224,18 +262,28 @@ input[type="textarea"] {
     border-radius: 15px;
   }
 /* Footer */
+
 footer {
     background-color: #35424a;
     color: #fff;
     padding: 10px auto;
     min-height: 50px;
     border-top: #e8491d 3px solid;
+
+    
+
+
+
+
+   
+
     text-align: center;
 }
 
 /* Media Queries */
 @media(max-width: 768px) {
     header #brand, #sidebar, #main, header nav,header nav li, #form .query, #form .fields, #form .reg, #boxes .box{
+
         float: none;
         text-align: center;
         width: 100%;
@@ -246,21 +294,31 @@ footer {
     #showcase h1 {
         margin-top: 80px
     }
+
+    
+
     #form .fields button, #sidebar, #sidebar button, #reg, #login, .buttons span {
+
         display: block;
         width: 80%;
         margin: auto;
         margin-top: 10px;
-        margin-bottom: 15px
-    }
-    #cover-div {
-        width: 80%;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 15px 
+
+
+        
+
+   
+        
+       
+       
+
     }
     #form .fields input, #form .reg input {
         width: 80%;
         margin-bottom: 5px
     }
+
 }
+
+
+
