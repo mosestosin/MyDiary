@@ -1,6 +1,9 @@
 {
   "name": "MyDiary",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "description": "A web application that allows users to write down their feeling and thought",
   "main": "app.js",
   "dependencies": {
