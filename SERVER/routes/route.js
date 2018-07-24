@@ -10,10 +10,10 @@ router.get('/', (req, res) => {
     });
 });
 
-router.get('/diaries', Diary.getDiary);
-router.get('/diaries/:id', Diary.getSpecificDiary);
-router.post('/diaries', Diary.createDiary);
+router.get('/entries', Diary.getDiary);
+router.get('/entries/:id', Diary.getSpecificDiary);
+router.post('/entries', Diary.createDiary);
 
-// router.put('/diaries/:id', Diary.updateDiary);
+// router.put('/entries/:id', Diary.updateDiary);
 
 export default router;
