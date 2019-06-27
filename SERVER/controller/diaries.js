@@ -31,23 +31,23 @@ class Diary {
     });
   }
 
-//   static updateDiary(req, res) {
-//     diaries.forEach((diary) => {
-//       if (diary.id === parseInt(req.params.id, 10)) {
-//         diary.title = req.body.title;
-//         diary.content = req.body.content;
-//         res.status(200).json({
-//           diary,
-//           message: 'success',
-//           error: false,
-//         });
-//       }
-//     });
-//     return res.status(404).json({
-//       message: 'diary not found',
-//       error: true,
-//     });
-//   }
+  static updateDiary(req, res) {
+    diaries.forEach((diary) => {
+      if (diary.id === parseInt(req.params.id, 10)) {
+        diary.title = req.body.title;
+        diary.content = req.body.content;
+        res.status(200).json({
+          diary,
+          message: 'success',
+          error: false,
+        });
+      }
+    });
+    return res.status(404).json({
+      message: 'diary not found',
+      error: true,
+    });
+  }
 }
 
 export default Diary;
